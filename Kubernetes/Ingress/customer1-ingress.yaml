@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: customer1-ingress
   namespace: customer-1
+  #change
 spec:
   rules:
   - host: cust1.example.com
